@@ -1,7 +1,4 @@
-const validateCpf = require('./cpf')
-const validateEmail = require('./email')
-
 module.exports = {
-  validateCpf,
-  validateEmail
+  validateCpf: require('./cpf'),
+  validateEmail: require('./email')
 }
