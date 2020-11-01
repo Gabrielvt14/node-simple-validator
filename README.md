@@ -1,5 +1,5 @@
 # node-simple-validator
-[![Version](https://img.shields.io/npm/v/node-simple-validator.svg)](https://www.npmjs.com/package/node-simple-validator) [![Downloads](https://img.shields.io/npm/dt/node-simple-validator.svg)](https://www.npmjs.com/package/node-simple-validator)
+[![Version](https://img.shields.io/npm/v/node-simple-validator.svg)](https://www.npmjs.com/package/node-simple-validator) [![Downloads](https://img.shields.io/npm/dt/node-simple-validator.svg)](https://www.npmjs.com/package/node-simple-validator) ![Test](https://github.com/Gabrielvt14/node-simple-validator/workflows/Test/badge.svg?branch=main)
 
 A simple data validator
 
