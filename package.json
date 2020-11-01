@@ -1,0 +1,32 @@
+{
+  "name": "validation-js",
+  "version": "1.0.0",
+  "description": "A simple validator of data",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gabrielvt14/validation-js.git"
+  },
+  "keywords": [
+    "validator",
+    "validation",
+    "validate",
+    "email",
+    "cpf",
+    "cpf validation",
+    "cpf validator",
+    "cpf validate",
+    "email validation",
+    "email validator",
+    "email validate"
+  ],
+  "author": "Gabriel Vieira",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Gabrielvt14/validation-js/issues"
+  },
+  "homepage": "https://github.com/Gabrielvt14/validation-js#readme"
+}
