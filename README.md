@@ -7,19 +7,19 @@ A simple data validator
 
 #### Install
 ```bash
-npm install --save validation-js
+npm install --save simple.validator
 ```
 
 #### To validate CPF
 ```js
-const { validateCpf } = require('validation-js')
+const { validateCpf } = require('simple.validator')
 validateCpf('CPF')
 // if valid, return true
 ```
 
 #### To validate Email
 ```js
-const { validateEmail } = require('validation-js')
+const { validateEmail } = require('simple.validator')
 validateEmail('valid@email.com') // true
 ```
 

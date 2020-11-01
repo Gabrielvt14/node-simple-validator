@@ -1,5 +1,5 @@
 {
-  "name": "validation-js",
+  "name": "simple.validator",
   "version": "1.0.0",
   "description": "A simple validator of data",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Gabrielvt14/validation-js.git"
+    "url": "git+https://github.com/Gabrielvt14/simple.validator.git"
   },
   "keywords": [
     "validator",
@@ -26,9 +26,9 @@
   "author": "Gabriel Vieira",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Gabrielvt14/validation-js/issues"
+    "url": "https://github.com/Gabrielvt14/simple.validator/issues"
   },
-  "homepage": "https://github.com/Gabrielvt14/validation-js#readme",
+  "homepage": "https://github.com/Gabrielvt14/simple.validator#readme",
   "devDependencies": {
     "chai": "^4.2.0",
     "mocha": "^8.2.0"
