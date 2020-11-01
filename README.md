@@ -1,25 +1,29 @@
-# simple.validator
+# validify-js
 A simple data validator
 
 #### Validators
 * CPF
 * Email
 
-#### Install
+#### Installation
 ```bash
-npm install --save simple.validator
+# Using npm
+npm install --save validify-js
+
+# Using yarn
+yarn add validify-js
 ```
 
 #### To validate CPF
 ```js
-const { validateCpf } = require('simple.validator')
+const { validateCpf } = require('validify-js')
 validateCpf('CPF')
 // if valid, return true
 ```
 
 #### To validate Email
 ```js
-const { validateEmail } = require('simple.validator')
+const { validateEmail } = require('validify-js')
 validateEmail('valid@email.com') // true
 ```
 
