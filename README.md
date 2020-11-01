@@ -28,4 +28,9 @@ validateEmail('valid@email.com') // true
 #### To more validations, you can contribute.
 Just open pull request with a new folder on `src/validators` path, write a validator function and modify `index.js` file in validators folder. The validator function must be return only a boolean.
 
+---
 
+#### Run tests
+```bash
+npm run test
+```
