@@ -1,4 +1,4 @@
-# validation-js
+# simple.validator
 A simple data validator
 
 #### Validators
