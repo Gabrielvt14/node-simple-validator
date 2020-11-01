@@ -1,4 +1,4 @@
 module.exports = {
-  validateCpf: require('./cpf'),
-  validateEmail: require('./email')
+  isCpf: require('./cpf'),
+  isEmail: require('./email')
 }

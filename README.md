@@ -16,15 +16,15 @@ yarn add node-simple-validator
 
 #### To validate CPF
 ```js
-const { validateCpf } = require('node-simple-validator')
-validateCpf('CPF')
+const { isCpf } = require('node-simple-validator')
+isCpf('CPF')
 // if valid, return true
 ```
 
 #### To validate Email
 ```js
-const { validateEmail } = require('node-simple-validator')
-validateEmail('valid@email.com') // true
+const { isEmail } = require('node-simple-validator')
+isEmail('valid@email.com') // true
 ```
 
 ---
