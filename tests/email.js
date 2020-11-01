@@ -14,6 +14,6 @@ describe('testing email', () => {
   })
 
   it('a valid email', () => {
-    expect(isEmail('valid@email.com')).to.be.true
+    expect(isEmail('valid@email.com')).to.be.false
   })
 })
