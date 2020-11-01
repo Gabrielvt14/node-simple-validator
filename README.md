@@ -1,4 +1,6 @@
 # node-simple-validator
+[![Version](https://img.shields.io/npm/v/node-simple-validator.svg)](https://www.npmjs.com/package/node-simple-validator) [![Downloads](https://img.shields.io/npm/dt/node-simple-validator.svg)](https://www.npmjs.com/package/node-simple-validator)
+
 A simple data validator
 
 #### Validators
