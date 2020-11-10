@@ -49,6 +49,7 @@ isNumberString(2500) // true
 ```js
 const { isString } = require('node-simple-validator')
 isString('valid string') // true
+isString('', { allowEmpty: true }) // true
 ```
 
 ---
