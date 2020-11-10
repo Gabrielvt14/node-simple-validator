@@ -4,7 +4,7 @@ const { isCpf } = require('./../')
 
 const expect = chai.expect
 
-describe('testing cpf', () => {
+describe('testing isCpf', () => {
   it('an invalid cpf', () => {
     expect(isCpf('341.302.151-86')).to.be.false
     expect(isCpf('341.302.151-861')).to.be.false

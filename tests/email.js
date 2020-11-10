@@ -4,7 +4,7 @@ const { isEmail } = require('./../')
 
 const expect = chai.expect
 
-describe('testing email', () => {
+describe('testing isEmail', () => {
   it('an invalid email', () => {
     expect(isEmail('invalidemail')).to.be.false
     expect(isEmail('invalid-email')).to.be.false

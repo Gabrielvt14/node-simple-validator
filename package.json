@@ -1,10 +1,11 @@
 {
   "name": "node-simple-validator",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "A simple validator of data",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha --recursive ./tests/"
+    "test": "./node_modules/mocha/bin/mocha --recursive ./tests/",
+    "test:watch": "./node_modules/mocha/bin/mocha --recursive ./tests/ --watch"
   },
   "repository": {
     "type": "git",
