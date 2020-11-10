@@ -6,6 +6,9 @@ A simple data validator
 #### Validators
 * CPF
 * Email
+* Number
+* Number String (Example: "2500" or 2500)
+* String
 
 #### Installation
 ```bash
@@ -27,6 +30,25 @@ isCpf('CPF')
 ```js
 const { isEmail } = require('node-simple-validator')
 isEmail('valid@email.com') // true
+```
+
+#### To validate Number
+```js
+const { isNumber } = require('node-simple-validator')
+isNumber(2500) // true
+```
+
+#### To validate Number String
+```js
+const { isNumberString } = require('node-simple-validator')
+isNumberString("2500") // true
+isNumberString(2500) // true
+```
+
+#### To validate String
+```js
+const { isString } = require('node-simple-validator')
+isString('valid string') // true
 ```
 
 ---

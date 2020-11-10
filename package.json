@@ -4,7 +4,8 @@
   "description": "A simple validator of data",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha --recursive ./tests/"
+    "test": "./node_modules/mocha/bin/mocha --recursive ./tests/",
+    "test:watch": "./node_modules/mocha/bin/mocha --recursive ./tests/ --watch"
   },
   "repository": {
     "type": "git",
