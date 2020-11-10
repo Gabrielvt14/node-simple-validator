@@ -16,6 +16,10 @@ describe('testing isString', () => {
   it('an invalid string - test with object', () => expect(isString({})).to.be.false)
 
   it('an invalid string - test with function', () => expect(isString(() => {})).to.be.false)
+  
+  it('an invalid empty string - option.allowEmpty is false', () => expect(isString('')).to.be.false)
 
   it('a valid string', () => expect(isString('string')).to.be.true)
+
+  it('a valid empty string', () => expect(isString('', { allowEmpty: true })).to.be.true)
 })

@@ -13,6 +13,8 @@ describe('testing isEmail', () => {
     expect(isEmail('invalid@emai.l')).to.be.false
   })
 
+  it('an invalid email - empty string', () => expect(isEmail('')).to.be.false)
+
   it('a valid email', () => {
     expect(isEmail('valid@email.com')).to.be.true
   })
