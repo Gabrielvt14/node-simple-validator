@@ -11,8 +11,8 @@
  * isString("", { allowEmpty: true }) // true
  * isString("") // false
  */
-module.exports = (string, options = { allowEmpty: false }) => {
-  if (typeof string !== 'string' || !string instanceof String) return false
-  if (!options.allowEmpty && string === "") return false
+ export default (_string: any, options: any = { allowEmpty: false }) => {
+  if (typeof _string !== 'string' || !_string as any instanceof String) return false
+  if (!options.allowEmpty && _string === "") return false
   return true
 }
